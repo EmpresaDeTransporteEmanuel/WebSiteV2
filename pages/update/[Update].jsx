@@ -36,7 +36,7 @@ function AddUser() {
             id: e.target.form[16].value.length > 0 ? e.target.form[16].value.trim() : specificData.idtrim(),
             autorizadoPor: e.target.form[17].value.length > 0 ? e.target.form[17].value : specificData.autorizadoPor,
             date: new Date(),
-            autor: user.uid,
+            autor: specificData.autor,
             state: specificData.state
 
         }
